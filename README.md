@@ -25,3 +25,6 @@ Complete the following steps:
 5. Display each key-value pair from the metadata JSON object somewhere on the page.
 
 6. Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard.
+
+## **Sources:**
+- some of the basis for the code used in my "Fetch the JSON data and console log it" section came from https://stackoverflow.com/questions/56307874/how-do-i-use-d3-to-i-populate-drop-down-options-from-json and https://stackoverflow.com/questions/43776274/how-to-get-the-selected-index-from-a-dropdown-menu-in-d3
