@@ -8,4 +8,12 @@ console.log("Data Promise: ", dataPromise);
 // Fetch the JSON data and console log it
 d3.json(sample_json).then(function(data) {
     console.log(data);
+    let dropdown_selector = d3.select('#selDataset');
+    data.names.forEach((name) => {
+      dropdown_selector
+      .append('option')
+      .text(name)
+      .property('value', name);
+    });
+    
   });
